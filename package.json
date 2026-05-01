@@ -5,15 +5,21 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "test": "jest"
   },
-  "keywords": ["express", "api", "nodejs"],
+  "keywords": [
+    "express",
+    "api",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "jest": "^30.3.0",
     "nodemon": "^3.0.1"
   }
 }
