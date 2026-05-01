@@ -32,3 +32,92 @@ CodeBoost AI leverages IBM Bob to:
 ## 🧱 Architecture
 
 This project is a simple Node.js API structured as follows:
+
+app.js → Application entry point  
+routes/ → API endpoints  
+services/ → Business logic (pricing)  
+
+IBM Bob interacts directly with the codebase via the IDE, analyzing and transforming the project in real time.
+
+---
+
+## ⚙️ API Endpoints
+
+### POST /orders
+
+Calculate total order price.
+
+### Example Request
+{
+  "items": [
+    { "type": "A", "price": 100 },
+    { "type": "B", "price": 200 }
+  ]
+}
+
+### Example Response
+{
+  "total": 332.1
+}
+
+---
+
+## 🧪 Testing
+
+Unit tests were generated using IBM Bob to validate pricing logic, including edge cases such as:
+- Empty input
+- High-value discounts
+- Unknown item types
+
+---
+
+## 🔧 Code Improvements
+
+IBM Bob identified and resolved:
+- Code duplication
+- Hardcoded logic
+- Poor readability
+- Lack of modularity
+
+The pricing service was refactored to follow best practices and improve maintainability.
+
+---
+
+## 📈 Impact
+
+Using IBM Bob, this project demonstrates:
+
+- ⏱️ Reduced development time  
+- 📊 Improved code quality  
+- 🚀 Faster onboarding for developers  
+- 🔄 Automated repetitive tasks  
+
+---
+
+## 🤖 Why IBM Bob
+
+IBM Bob goes beyond code generation by understanding the full development context, enabling smarter decisions and higher-quality outcomes.
+
+---
+
+## ▶️ How to Run
+
+npm install  
+npm start  
+
+Server runs on: http://localhost:3000
+
+---
+
+## 📂 Hackathon Submission
+
+This repository includes:
+- Source code
+- Bob-generated improvements
+- /bob_sessions folder with task session reports for evaluation
+
+---
+
+## 🏁 Conclusion
+
+CodeBoost AI shows how IBM Bob can transform the developer experience by turning ideas into working software faster, with better quality and less effort.
