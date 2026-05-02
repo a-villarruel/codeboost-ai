@@ -1,8 +1,8 @@
 # 🚀 CodeBoost AI – Powered by IBM Bob
 
-CodeBoost AI is a proof-of-concept project built for the IBM Bob Dev Day Hackathon.
+CodeBoost AI is a proof-of-concept project built for the IBM Bob Dev Day Hackathon, demonstrating AI-assisted software development in practice.
 
-It demonstrates how IBM Bob acts as an intelligent development partner to accelerate software delivery by automating key development tasks such as code understanding, documentation, testing, and refactoring.
+It showcases how IBM Bob acts as an intelligent development partner to accelerate software delivery by automating key development tasks such as code understanding, documentation, testing, and refactoring.
 
 ---
 
@@ -59,7 +59,7 @@ graph TD
 
 ### POST /orders
 
-Calculate total order price.
+Creates an order and calculates total price including discounts and tax.
 
 #### Example Request
 
@@ -128,7 +128,7 @@ npm install
 npm start
 ```
 
-Server runs at:
+Server runs at:  
 http://localhost:3000
 
 ---
@@ -146,12 +146,21 @@ Using IBM Bob:
 
 ## 🏆 Hackathon Submission
 
-This project demonstrates:
+**Team:** LoneCoder AI  
+**Project:** CodeBoost AI  
+**Event:** IBM Bob Dev Day Hackathon  
 
-* AI-assisted development using IBM Bob
-* Automated documentation
-* Code improvement and refactoring
-* Test generation
+### 🎯 Overview
+This project demonstrates how IBM Bob can act as an AI development partner across the full software development lifecycle — from code understanding to documentation, testing, and refactoring.
+
+### 🚀 Key Capabilities Demonstrated
+- Code understanding and explanation
+- Automated documentation generation
+- AI-assisted unit testing
+- Code refactoring and quality improvement
+
+### 📂 Evidence
+Screenshots and interaction logs are available in the `/bob_sessions` folder.
 
 ---
 
@@ -159,5 +168,6 @@ This project demonstrates:
 
 CodeBoost AI shows how IBM Bob can transform the developer experience by turning ideas into working software faster, with better quality and less effort.
 
+---
 
 Built with ❤️ and IBM Bob
